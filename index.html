@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Seek 4</title>
+<title>Seek 4 | Tech Brand</title>
 
 <style>
 
@@ -45,11 +45,11 @@ color:white;
 
 .hero{
 text-align:center;
-padding:80px 20px;
+padding:100px 20px;
 }
 
 .hero h1{
-font-size:45px;
+font-size:50px;
 }
 
 .section{
@@ -69,6 +69,20 @@ background:rgba(0,0,0,0.05);
 padding:20px;
 border-radius:10px;
 width:250px;
+}
+
+.skills{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.skill{
+background:var(--primary);
+color:white;
+padding:10px 15px;
+border-radius:5px;
 }
 
 button{
@@ -94,53 +108,83 @@ color:white;
 <body>
 
 <header>
+
 <h2>Seek 4</h2>
 
 <nav>
 <a href="#">Home</a>
 <a href="#about">About</a>
 <a href="#projects">Projects</a>
-<a href="auth.html">Sign In / Up</a>
+<a href="#skills">Skills</a>
+<a href="auth.html">Sign In</a>
 <button onclick="toggleMode()">🌙</button>
 </nav>
+
 </header>
 
 <section class="hero">
-<h1>Welcome to Seek 4</h1>
-<p>Building modern technology solutions</p>
+
+<h1>Hi, I'm Parkavan</h1>
+<p>Founder of Seek 4 • Developer • Future AI Engineer</p>
+
 </section>
 
 <section id="about" class="section">
-<h2>About</h2>
-<p>Seek 4 is a technology initiative focused on web development, software systems and AI innovations.</p>
+
+<h2>About Seek 4</h2>
+
+<p>
+Seek 4 is my personal technology brand where I build software systems,
+websites, and AI-powered tools. My goal is to create innovative
+technology solutions while growing as a developer.
+</p>
+
 </section>
 
 <section id="projects" class="section">
+
 <h2>Projects</h2>
 
 <div class="projects">
 
 <div class="card">
 <h3>Flight Booking System</h3>
-<p>Python based flight reservation system.</p>
+<p>Python CLI based flight reservation system.</p>
 </div>
 
 <div class="card">
-<h3>Portfolio Website</h3>
-<p>Personal developer portfolio hosted on GitHub.</p>
+<h3>Developer Portfolio</h3>
+<p>My personal portfolio website hosted on GitHub.</p>
 </div>
 
 <div class="card">
-<h3>Upcoming AI Tool</h3>
-<p>Future AI based automation project.</p>
+<h3>Future AI Tools</h3>
+<p>Upcoming automation and AI based projects.</p>
 </div>
 
 </div>
 
 </section>
 
+<section id="skills" class="section">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Python</div>
+
+</div>
+
+</section>
+
 <footer>
-<p>© 2026 Seek 4</p>
+
+<p>© 2026 Seek 4 • Built by Parkavan</p>
+
 </footer>
 
 <script>
